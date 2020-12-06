@@ -1,0 +1,468 @@
+body{
+  background-color: #faf2f0;
+  color: #6b6768;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 17px;
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #0a1a2b;
+  font-weight: 300;
+}
+
+h1 {
+  line-height: 60px;
+  font-size: 3.5em;
+}
+
+h2 {
+  line-height: 1em;
+  font-size: 40px;
+}
+
+h3 {
+  color: #0a1a2b;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 1.375em;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #0a1a2b;
+}
+
+h5 {
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 300;
+  margin-top: -15px;
+}
+
+ul {
+  padding-left: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 121, 104);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.container {
+  max-width: 76%;
+  margin: 150px auto;
+}
+
+.text-underlined {
+  border-bottom: 2px solid rgb(238, 121, 104);
+}
+
+.sous-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+}
+
+.sous-container-non-flex {
+  margin-bottom: 100px;
+}
+
+.titre-sous-container {
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-color: #e9e3e2;
+  margin-bottom: 50px;
+  flex-grow: 1;
+}
+
+
+
+
+/* présentation générale*/
+.text-presentation-generale {
+  padding-top: 20px;
+  flex-basis: 50%;
+}
+
+.img-presentation-generale {
+  flex-basis: 42%;
+  margin-right: 60px;
+}
+
+
+.text-presentation-generale a{
+    line-height: 25px;
+    font-weight: 200;
+    font-size: 19px;
+}
+
+#phone-number {
+  color: rgb(10, 26, 43);
+  line-height: 15px;
+  font-weight: 200;
+  font-size: 19px;
+}
+
+
+/*Experiences et Formations*/
+.bloc-experience-formation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.bloc-lieu-date {
+  flex-basis: 25%;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.bloc-description-experience-formation {
+  flex-basis: 80%;
+}
+
+.bloc-lien-site-experience {
+  display: flex;
+}
+
+.bloc-lien-site-experience a {
+  font-size: 13px;
+}
+
+.fa-link {
+  font-size: 15px;
+  color: #ee7968;
+  padding-right: 10px;
+}
+
+
+/*Skills*/
+.bloc-titre-and-skills {
+  flex-basis: 29%;
+  margin-bottom: 15px;
+}
+
+.bloc-titre-and-skills h3 {
+  margin-bottom: 5px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.appellation-skill {
+   flex-grow: 2;
+   align-items: flex-end;
+}
+
+.appellation-skill p {
+  margin: 0px;
+}
+
+.progressbar-pourcentage {
+  flex-basis: 55%;
+  padding-bottom: 8px;
+}
+
+.progressbar {
+  width: 100%;
+  height: 4px;
+  background-color: rgba(135, 182, 193, 0.2);
+}
+
+.progressbar-jauge {
+  height: 4px;
+  background-color: rgb(238, 121, 104);
+}
+
+    #progressbar-teamplayer {
+      width: 80%;
+    }
+
+    #progressbar-leadership {
+      width: 70%;
+    }
+
+    #progressbar-creative {
+      width: 85%;
+    }
+
+    #progressbar-webdesign {
+      width: 50%;
+    }
+
+    #progressbar-canva {
+      width: 90%;
+    }
+
+    #progressbar-wpdivi {
+      width: 60%;
+    }
+
+    #progressbar-french {
+      width: 100%;
+    }
+
+    #progressbar-english {
+      width: 90%;
+    }
+
+    #progressbar-spanish {
+      width: 40%;
+    }
+
+.pourcentage {
+  text-align: right;
+  margin: 0px;
+  color: rgb(238, 121, 104);
+}
+
+
+
+/*Get in touch*/
+.bloc-infos-and-social-media {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.infos-perso {
+  flex-grow: 1;
+}
+
+.social-media {
+  flex-grow: 2;
+}
+
+
+
+
+
+
+@media screen and (max-device-width:770px), screen and (max-width:770px){
+
+  h1{
+    font-size: 3.5em;
+    line-height: 1.1em;
+  }
+
+  h2 {
+    font-size: 2.3em;
+    line-height: 1em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 0.9em;
+    line-height: 1.375em;
+  }
+
+  h5 {
+    font-size: 0.8em;
+    line-height: 23px;
+    margin-top: -15px;
+  }
+
+  p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  ul {
+    font-size: 1em;
+
+  }
+
+/*Présenation générale*/
+  .text-presentation-generale {
+    flex-grow: 1;
+  }
+
+  .text-presentation-generale a{
+    font-size: 1.2em;
+    line-height: 1.1em;
+  }
+
+  #phone-number {
+    font-size: 1.2em;
+  }
+
+  .img-presentation-generale {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+/*Experience et Formations*/
+  .bloc-lien-site-experience a {
+    font-size: 1em;
+  }
+
+  .fa-link {
+    font-size: 0.9em;
+  }
+
+
+/*Skills*/
+  .bloc-titre-and-skills {
+    flex-basis: 45%;
+  }
+
+
+/*Get in touch*/
+.bloc-infos-and-social-media {
+  display: inline-block;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-device-width:415px), screen and (max-width:415px){
+
+  h1{
+    font-size: 6em;
+    line-height: 1.1em;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    line-height: 1em;
+  }
+
+  h3 {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 0.9em;
+    line-height: 1.375em;
+  }
+
+  h5 {
+    font-size: 0.75em;
+    line-height: 23px;
+    margin-top: -15px;
+  }
+
+  p{
+    font-size: 1.8em;
+    line-height: 1.5em;
+  }
+
+   ul {
+    font-size: 1em;
+    padding-left: 35px;
+  }
+
+/*Présenation générale*/
+  .text-presentation-generale {
+    flex-grow: 1;
+  }
+
+  .text-presentation-generale a{
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  #phone-number {
+    font-size: 1.8em;
+  }
+
+  .img-presentation-generale {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+/*Experience et Formation*/
+  .bloc-experience-formation {
+    display: inline-block;
+  }
+
+  .bloc-lieu-date {
+    text-align: left;
+    padding-bottom: 0px;
+  }
+
+  .bloc-lien-site-experience {
+    padding-top: 10px;
+  }
+
+  .bloc-lien-site-experience a {
+    font-size: 1.8em;
+  }
+
+  .fa-link {
+    font-size: 1em;
+  }
+
+
+/*Skills*/
+  .bloc-titre-and-skills {
+    flex-basis: 100%;
+  }
+
+  .appellation-skill p {
+    font-size: 2.1em;
+  }
+
+  .bloc-titre-and-skills h3 {
+    font-size: 1.15em;
+    margin-bottom: 15px;
+  }
+
+  #sous-container-getintouch {
+    display: inline;
+  }
+
+  .bloc-infos-and-social-media h3 {
+    font-size: 1.15em;
+  }
+
+  #text-infos-perso {
+    font-size: 1.8em;
+  }
+
+  .img-getintouch {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+
+
+
